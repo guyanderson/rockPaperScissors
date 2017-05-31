@@ -14,14 +14,11 @@ This app will recreate the game Rock Paper Scissors.
 | Both players pick Scissors | P1 Rock, P2 Rock | Tie |
 | Both players pick Paper | P1 Rock, P2 Rock | Tie |
 
+| One player picks Rock, one picks Scissors | P1 Rock, P2 Sciss | P1 Win |
 
 
 Simplest - first spec
-
-
-
 all possible inputs outputs
-
 inputs: player1Choice, player2Choice
 output:  one player wins this round
 

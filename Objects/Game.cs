@@ -28,8 +28,9 @@ namespace RockPaperScissors.Objects
       {
         _output = "tie";
       }
-      else {
-        _output = "not a tie";
+      else if (_inputP1 == "rock" && _inputP2 == "scissors")
+      {
+        _output = "P1 Wins";
       }
     }
 

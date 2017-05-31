@@ -24,7 +24,15 @@ namespace RockPaperScissors.Objects
       Assert.Equal("tie", newGame.GetOutput());
     }
 
-
+    [Fact]
+    public void CompareInputs_P1RockP2Sciss_ReturnsP1Win()
+    {
+      string inputP1 = "rock";
+      string inputP2 = "scissors";
+      Game newGame = new Game(inputP1, inputP2);
+      newGame.CompareInputs(inputP1, inputP2);
+      Assert.Equal("P1 Wins", newGame.GetOutput());
+    }
 
   }
 }
